@@ -1,6 +1,5 @@
 import { Badge, Box, Divider, List, ListItem, ListItemText, Paper, Typography } from "@mui/material";
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import CurrencyRubleOutlinedIcon from '@mui/icons-material/CurrencyRubleOutlined';
 import { CartItem } from "../store/types";
 
 const ShoppingCartOverview: React.FC<{ cartItems: CartItem[] }> = ({ cartItems }) => {
