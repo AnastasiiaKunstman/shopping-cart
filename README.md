@@ -28,3 +28,4 @@ npm run dev
 ```
 
 ## Ссыла на проект:
+https://shopping-cart-one-gold.vercel.app/
