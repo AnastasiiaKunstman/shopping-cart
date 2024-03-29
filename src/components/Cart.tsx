@@ -7,8 +7,8 @@ import ShoppingCartOverview from './ShoppingCartOverview';
 
 const Cart: React.FC<{ cart: CartItem[] }>  = ({ cart }) => {
     return (
-        <Box sx={{ flexGrow: 1, p: 2, display: 'flex', alignItems: 'center' }}>
-          <Grid container spacing={2}>
+        <Box sx={{ flexGrow: 1, display: 'flex', width: '100%'}}>
+          <Grid container spacing={2} sx={{ p: 2 }}>
             <Grid item xs={12} md={8}>
               <Grid container spacing={2}>
                 {cart.map((item, index) => (

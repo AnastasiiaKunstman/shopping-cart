@@ -52,7 +52,7 @@ const ProductItem: React.FC<{ item: CartItem }> = ({ item }) => {
 
 
     return (
-        <Card sx={{ maxWidth: 345, height: '100%' }}>
+        <Card sx={{ maxWidth: 345, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
             <CardMedia
                 component="img"
                 height="100"
@@ -61,7 +61,7 @@ const ProductItem: React.FC<{ item: CartItem }> = ({ item }) => {
                 sx={{ objectFit: 'contain' }}
             />
             <CardContent>
-                <Typography gutterBottom variant="h6" component="div">
+                <Typography gutterBottom variant="h6" component="div" sx={{ height: "64px"}}>
                     {truncatedName}
                 </Typography>
                 <Box sx={{ display: 'flex', alignItems: 'center'}}>
